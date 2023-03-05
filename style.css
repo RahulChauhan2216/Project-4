@@ -1,0 +1,1696 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+#container header {
+    height: 100px;
+    background-color: white;
+}
+
+#container header h1 {
+    text-align: center;
+    padding-top: 25px;
+    text-transform: uppercase;
+    font-size: 35px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: orangered;
+}
+
+#container nav {
+    display: flex;
+    justify-content: center;
+    background: rgb(30, 30, 30);
+    padding: 20px;
+}
+
+#container nav ul li {
+    display: inline-block;
+    list-style: none;
+    margin: 0px 20px;
+}
+
+#container nav ul li a {
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    font-size: 20px;
+}
+
+#container .first {
+    height: 400px;
+    background: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(first.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    text-align: center;
+    color: white;
+}
+
+#container .first h6 {
+    padding-top: 4%;
+    font-size: 18px;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+}
+
+#container .first h1 {
+    padding-top: 1%;
+    font-size: 55px;
+    padding-bottom: 1%;
+    text-transform: uppercase;
+    font-weight: bolder;
+}
+
+#container .first p {
+    padding-top: 1%;
+    font-size: 18px;
+    padding-bottom: 3%;
+    text-transform: capitalize;
+    width: 35%;
+    margin: auto;
+}
+
+
+#container .first button {
+    padding: 10px;
+    text-transform: capitalize;
+    background: orangered;
+    color: white;
+    width: 10%;
+    border: none;
+    border-radius: 25px;
+}
+
+#container .second {
+    height: 800px;
+    text-align: center;
+}
+
+#container .second p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .second h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .second .second_1 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container .second .second_1 .one {
+    height: 250px;
+    width: 200px;
+}
+
+#container .second .second_1 h6 {
+    display: flex;
+    height: 40px;
+    width: 100%;
+    font-size: 18px;
+    text-transform: uppercase;
+    color: white;
+    background: black;
+    align-items: center;
+    justify-content: center;
+    margin-top: 105%;
+
+}
+
+
+#container .second .second_1 .t1,
+.t2,
+.t3 {
+    margin-bottom: 40px;
+}
+
+#container .second .second_1 .t1 {
+    background: url(11.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .second .second_1 .t2 {
+    background: url(2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .second .second_1 .t3 {
+    background: url(3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .second .second_1 .t4 {
+    background: url(art.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .second .second_1 .t5 {
+    background: url(5.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .second .second_1 .t6 {
+    background: url(6.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#container .second button {
+    padding: 7px;
+    width: 100px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    background: transparent;
+}
+
+#container .third {
+    display: flex;
+    height: 650px;
+    flex-wrap: wrap;
+    padding-top: 50px;
+}
+
+#container .third .zz {
+    height: 300px;
+    width: 50%;
+    background-color: rgb(234, 234, 234);
+}
+
+
+#container .third .third_1 {
+    background: url(guitar_1.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container .third .third_4 {
+    background: url(storage.avif);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#container .third h2 {
+    margin-top: 40px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 20px;
+    font-size: 28px;
+}
+
+#container .third p {
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 18px;
+    line-height: 30px;
+    width: 80%;
+}
+
+#container .third button {
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 17%;
+    padding: 5px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    border-radius: 50px;
+
+}
+
+
+#container .forth {
+    height: 590px;
+    text-align: center;
+}
+
+
+#container .forth h6 {
+    text-transform: uppercase;
+    font-size: 17px;
+    color: rgb(61, 61, 61);
+    margin-top: 50px;
+    padding-bottom: 10px;
+}
+
+#container .forth h1 {
+    font-size: 45px;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+}
+
+#container .forth h2 {
+    text-transform: capitalize;
+    background: rgb(30, 30, 30);
+    padding: 5px;
+    width: 80%;
+    margin: auto;
+    color: white;
+}
+
+
+#container .forth h3 {
+    text-transform: capitalize;
+    width: 80%;
+    margin: auto;
+    font-size: 22px;
+    padding-top: 20px;
+    padding-bottom: 40px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+
+}
+
+#container .forth .forth_1 {
+    display: flex;
+    width: 80%;
+    margin: auto;
+    flex-wrap: wrap;
+    padding: 25px 0px;
+    border-bottom: 1px solid rgb(61, 61, 61);
+
+}
+
+#container .forth .forth_1 p {
+    width: 50%;
+    padding: 5px;
+    text-transform: capitalize;
+    font-size: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif
+}
+
+#container .forth .forth_1 span {
+    color: orangered;
+}
+
+#container .forth button {
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 10%;
+    padding: 5px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    border-radius: 50px;
+    background: transparent;
+    margin-top: 45px;
+}
+
+#container .five {
+    height: 150px;
+    background: orangered;
+    color: white;
+}
+
+#container .five_1 {
+    display: flex;
+    align-items: center;
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+
+#container .five_1 .fa-solid {
+    font-size: 65px;
+}
+
+#container .five_1 p {
+    font-size: 25px;
+    text-transform: capitalize;
+    padding-left: 30px;
+    line-height: 30px;
+    line-height: 35px;
+}
+
+
+/* --------------------- */
+
+
+#container .six {
+    height: 840px;
+    text-align: center;
+}
+
+#container .six p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .six h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .six .six_1 {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+#container .six .six_1 .sis {
+    height: 250px;
+    width: 220px;
+}
+
+
+
+#container .six .six_1 .s1,
+.s2 {
+    margin-bottom: 40px;
+}
+
+#container .six .six_1 .s1 {
+    background: url(ly1.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 64%;
+}
+
+#container .six .six_1 .s2 {
+    background: url(ly2.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .six .six_1 .s3 {
+    background: url(ly3.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .six .six_1 .s4 {
+    background: url(ly4.avif);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+#container .six .six_1 .s5 {
+    background: url(ly5.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+
+#container .six button {
+    padding: 7px;
+    width: 100px;
+    text-transform: capitalize;
+    border-radius: 50px;
+    margin-top: 30px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    background: transparent;
+}
+
+#container .seven {
+    background: linear-gradient(to right, rgb(0, 0, 0, 1), rgb(0, 0, 0, 0)), url(ssss.jpg);
+    height: 400px;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    color: white;
+
+}
+
+#container .seven .seven_1 {
+    display: block;
+    margin-left: 100px;
+    width: 20%;
+    margin-top: 50px;
+    padding-top: 50px;
+}
+
+#container .seven .seven_1 h1 {
+    font-size: 35px;
+    text-transform: capitalize;
+}
+
+#container .seven .seven_1 p {
+    margin: 40px 0px;
+    line-height: 25px;
+}
+
+#container .seven button {
+    background-color: orangered;
+    color: white;
+    padding: 10px;
+    width: 100px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+#container .eight {
+    height: 450px;
+    background: rgb(234, 234, 234);
+}
+
+#container .eight .outer {
+    display: flex;
+    width: 50%;
+    padding-top: 75px;
+    margin: auto;
+    height: 80%;
+}
+
+#container .eight .outer .eight_1 {
+    width: 30%;
+    background: white;
+    padding: 15px;
+}
+
+#container .eight .outer .eight_1 h1 {
+    text-transform: capitalize;
+    margin-bottom: 10px;
+}
+
+#container .eight .outer .eight_1 button {
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    padding: 10px;
+    width: 110px;
+    border-radius: 50px;
+    text-transform: capitalize;
+    margin-top: 15px;
+}
+
+
+
+#container .eight .outer .eight_2 {
+    width: 70%;
+    margin-left: 5px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+#container .eight .outer .eight_2 .eig {
+    height: 49%;
+    width: 48%;
+    border: 2px solid grey;
+    margin-left: 10px;
+}
+
+#container .eight .outer .eight_2 .eg3,
+.eg4 {
+    margin-top: 10px;
+}
+
+#container .eight .outer .eight_2 .eg1 {
+    background: url(ot1.webp);
+    background-size: cover;
+}
+
+#container .eight .outer .eight_2 .eg2 {
+    background: url(ot2.avif);
+    background-size: cover;
+}
+
+#container .eight .outer .eight_2 .eg3 {
+    background: url(ot3.jpg);
+    background-size: cover;
+}
+
+#container .eight .outer .eight_2 .eg4 {
+    background: url(ot4.jpg);
+    background-size: cover;
+}
+
+
+#container .nine {
+    height: 700px;
+}
+
+#container .nine .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .nine .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .nine .nine_1 {
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+#container .nine .nine_1 .nine_2 .inner,
+.nine_3 .inner_1 {
+    height: 200px;
+    width: 100%;
+}
+
+#container .nine .nine_1 .nine_3 {
+    margin-left: 20px;
+}
+
+#container .nine .nine_1 .nine_2 .inner {
+    background: url(light.webp);
+    background-size: cover;
+    background-position: center;
+
+}
+
+
+#container .nine .nine_1 .nine_3 .inner_1 {
+    background: url(light1.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .nine .nine_1 .nine_2 h2,
+.nine_3 h2 {
+    font-size: 30px;
+    text-transform: capitalize;
+    margin: 25px 0px;
+}
+
+#container .nine .nine_1 .nine_2 h6,
+.nine_3 h6 {
+    font-size: 12px;
+    text-transform: capitalize;
+    margin: 25px 0px;
+}
+
+#container .nine .nine_1 .nine_2 h6 span,
+.nine_3 h6 span {
+    color: rgb(91, 90, 90);
+}
+
+#container .nine .nine_1 .nine_2 p,
+.nine_3 p {
+    font-size: 18px;
+    text-transform: capitalize;
+    margin-bottom: 15px;
+    line-height: 30px;
+}
+
+
+#container .nine .nine_1 .nine_2 button,
+.nine_3 button {
+    width: 120px;
+    padding: 5px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+
+}
+
+
+#container .ten {
+    height: 450px;
+    background-image: linear-gradient(rgb(0, 0, 0, 0.5), rgb(0, 0, 0, 0.5)), url(hand.jpg);
+    color: white;
+
+}
+
+#container .ten .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .ten .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .ten .new_1 {
+    width: 50%;
+    margin: auto;
+    text-align: center;
+}
+
+#container .ten .new_1 li {
+    list-style: none;
+}
+
+#container .ten .new_1 ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    width: 22px;
+}
+
+
+#container .ten .new_1 ul li {
+    display: inline-block;
+    font-size: 22px;
+    text-transform: capitalize;
+}
+
+
+#container .eleven {
+    height: 500px;
+    background-color: rgb(231, 231, 231);
+}
+
+#container .eleven .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .eleven .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .eleven .new_1 {
+    width: 50%;
+    margin: auto;
+}
+
+#container .eleven .new_1 ul {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+#container .eleven .new_1 li {
+    height: 25px;
+    width: 33%;
+    list-style: none;
+}
+
+#container .eleven .new_1 ul li::before {
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    width: 22px;
+    text-align: center;
+}
+
+#container .twelve{
+    height: 300px;
+    padding: 50px 25%;
+    display: flex;
+}
+
+#container .twelve_1{
+    height: 200px;
+    width: 200px;
+    background: url(saxooo.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twelve_2{
+    height: 200px;
+    margin-left: 40px;
+}
+
+#container .twelve_2 h2{
+    font-size: 30px;
+    text-transform: capitalize;
+    font-family: 'Montserrat', sans-serif;
+}
+
+#container .twelve_2 p{
+    font-size: 17px;
+    margin: 30px 0px;
+}
+
+#container .twelve_2 button{
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    padding: 10px;
+    width: 110px;
+    border-radius: 50px;
+    text-transform: capitalize;
+}
+
+
+#container .thirten {
+    display: flex;
+    height: 1100px;
+    flex-wrap: wrap;
+}
+
+#container .thirten .zz {
+    height: 550px;
+    width: 50%;
+    background-color: rgb(234, 234, 234);
+}
+
+
+#container .thirten .thirten_1 {
+    background: url(laker.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+#container .thirten .thirten_4 {
+    background: url(grillll.webp);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+
+#container .thirten h2 {
+    margin-top: 50px;
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 40px;
+    border-bottom: 2px solid gray;
+    padding-bottom: 40px;
+    width: 30%;
+    font-size: 35px;
+}
+
+#container .thirten p {
+    margin-left: 30px;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+    font-size: 17px;
+    line-height: 30px;
+    width: 80%;
+    color: rgb(36, 35, 35);
+}
+
+#container .thirten button {
+    margin-left: 30px;
+    text-transform: capitalize;
+    font-size: 18px;
+    width: 17%;
+    padding: 5px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    border-radius: 50px;
+}
+
+#container .thirten .thirten_2 h4{
+    font-size: 20px;
+    text-transform: capitalize;
+    color: black;
+    margin-bottom: 5px;
+    margin-left: 30px; 
+}
+
+#container .thirten_3 h2{
+    margin-left: 30%;
+}
+
+
+#container .thirten_3 h5{
+    margin-left: 30%;
+    text-transform: capitalize;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+#container .thirten_3 li{
+    margin-left: 30%;
+    list-style: none;
+}
+
+#container .thirten_3 li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 22px;
+}
+
+#container .thirten_3 button{
+    margin-left: 30%;
+    margin-top: 50px;
+}
+
+#container .forten{
+    height: 700px;
+    text-align: center;
+}
+
+#container .forten p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .forten h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .forten .forten_1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 50%;
+    margin: auto;
+    height: 400px;
+}
+
+#container .forten .forten_1 .one{
+    height: 280px;
+    width: 100%;
+    margin-bottom: 10px;
+    background: url(holi.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forten .forten_1 .zz{
+    height: 110px;
+    width: 32.4%;
+    margin-bottom: 20px;
+}
+
+#container .forten .forten_1 .tt_1 ,.tt_2{
+    margin-right: 10px;
+}
+
+
+#container .forten button{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 30px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    border-radius: 50px;
+    margin-top: 30px;
+    background: transparent;
+}
+
+#container .forten .forten_1 .tt_1{
+    background: url(headphone.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forten .forten_1 .tt_2{
+    background: url(piono.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .forten .forten_1 .tt_3{
+    background: url(forest.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .fiften{
+    height: 100px;
+    background: orangered;
+    color: white;
+    display: flex;
+    align-items: center;
+}
+
+#container .fiften .fiften_1{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+
+
+#container .fiften .fa-solid{
+    border: 2px solid white;
+    padding: 7px;
+    border-radius: 70%;
+    font-size: 26px; 
+    margin-right: 40px;
+}
+
+#container .fiften .fiften_1 h2{
+    font-size: 26px;
+    margin-top: 15px;
+    margin-right: 40px;
+    word-spacing: 5px;
+}
+
+#container .fiften .fiften_1 button{
+    background: transparent;
+    padding: 0px 25px;
+    font-size: 16px;
+    text-transform: capitalize;
+    color: white;
+    border: 1px solid white;
+    border-radius: 25px;
+}
+
+
+#container .sixteen{
+    height: 250px;
+}
+
+#container .sixteen .new{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 50px 0px;
+}
+
+
+#container .sixteen .sixteen_1 {
+    width: 50%;
+}
+
+
+#container .sixteen .sixteen_2 {
+    width: 50%;
+}
+
+#container .sixteen .new h2{
+    font-size: 27px;
+    text-transform: capitalize;
+    color: rgb(18, 18, 18);
+    text-align: left;
+}
+
+#container .sixteen .new p{
+    font-size: 17px;
+    text-transform: capitalize;
+    margin: 15px 0px;
+    width: 98%;
+}
+
+#container .sixteen .new button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+
+#container .seventen{
+    height: 600px;
+}
+
+#container .eighten{
+    height: 450px;
+    background: rgb(228, 228, 228);
+}
+
+#container .eighten_1{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-around;
+}
+
+#container .eighten_1 .one .ff,.two .ff ,.three .ff{
+    height: 200px;
+    width: 200px;
+    margin-bottom: 25px;
+}
+
+#container .eighten_1 h3{
+    text-transform: capitalize;
+    font-size: 24px;
+}
+
+#container .eighten_1 p{
+    text-transform: capitalize;
+    font-size: 18px;
+    margin: 25px 0px;
+}
+
+#container .eighten_1 button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+}
+
+#container .eighten_1 .one .one_1{
+    background: url(guit.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+}
+
+#container .eighten_1 .two .two_1{
+    background: url(sun.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#container .eighten_1 .three .three_1{
+    background: url(portland.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    
+}
+
+#container .ninten{
+    height: 620px;
+}
+
+#container .ninten .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .ninten .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .ninten .one{
+    display: flex;
+    width: 50%;
+    margin: auto;
+}
+
+#container .ninten .one .inner{
+    width: 50%;
+}
+
+#container .ninten .one .two{
+    height: 400px;
+    width: 50%;
+    padding-top: 5%;
+}
+
+#container .ninten .one .inner .one_1{
+    display: flex;
+    align-items: center;
+}
+
+#container .ninten .one .inner .one_1 .fa-regular, .fa-solid{
+    width: 10%;
+    font-size: 20px;
+    text-align: center;
+    margin-top: 10px;
+    color: rgb(23, 23, 23);
+    background: white;
+}
+
+#container .ninten .one .inner .one_1 h2{
+    width: 90%;
+    text-transform: capitalize;
+    margin-left: 5%;
+    margin-bottom: 5px;
+    color: rgb(23, 23, 23);
+}
+
+#container .ninten .one .inner .one_1 .jj{
+    margin-top: 15px;
+    text-align: left;
+}
+
+#container .ninten .one .inner .one_1 .tt{
+    margin-top: 15px;
+    text-align: left;
+}
+
+#container .ninten .one .inner p{
+    font-size: 18px;
+    margin-left: 15%;
+    color: rgb(40, 40, 40);
+}
+
+#container .ninten .one .inner .share .fa-brands{
+    padding: 10px;
+    background: rgb(173, 173, 173);
+    color: rgb(43, 43, 43);
+    margin-left: 1%;
+    margin-top: 2%;
+}
+
+#container .ninten .one .inner .share .fa-facebook-f{
+    margin-left: 15%;
+}
+
+#container .ninten .one .two{
+    background: url(wood.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+
+#container .twenty{
+    height: 500px;
+    background: url(iphone.jpeg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentyo{
+    height: 400px;
+}
+
+#container .twentyo .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .twentyo .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .twentyo p{
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    font-size: 18px;
+    padding-bottom: 30px;
+}
+
+#container .twentyo button{
+    text-transform: capitalize;
+    font-size: 18px;
+    padding: 5px 30px;
+    border: 2px solid gray;
+    color: rgb(91, 90, 90);
+    border-radius: 50px;
+    margin: auto;
+    display: block;
+    background: transparent;
+}
+
+
+
+#container .twentyt{
+    height: 650px;
+    background: rgba(224, 224, 224, 0.863);
+}
+
+#container .twentyt .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+#container .twentyt .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+}
+
+#container .twentyt .new_5{
+    display: flex;
+    width: 50%;
+    margin-left: 25%;
+    height: 350px;
+    margin-bottom: 40px;
+}
+
+#container .twentyt .new_5 .one_6 .ff, .two_6 .ff{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0;
+}
+
+#container .twentyt .new_5 .three_6 .ff{
+    width: 100%;
+    height: 30%;
+    margin-bottom: 0;
+}
+
+#container .twentyt .new_5 h1 , h2{
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 25px;
+}
+
+#container .twentyt .new_5 p{
+    text-align: center;
+    font-size: 18px;
+    margin: 0 5%;
+}
+
+#container .twentyt .new_5 h2{
+    color: orangered;
+}
+
+#container .twentyt .new_5 .two_6{
+    margin: 0px 20px;
+}
+
+#container .twentyt .new_5 .tt{
+    height: 50px;
+    width: 50px;
+    margin: auto;
+    position: relative;
+    top: -25px;
+    border: 4px solid white;
+    border-radius: 50%;
+    background: orangered;
+}
+
+#container .twentyt .new_5 .one_6 .ff{
+    background: linear-gradient(rgba(248, 72, 8, 0.8), rgba(248, 72, 8, 0.8)),url(concer.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container .twentyt .new_5 .two_6 .ff{
+    background: linear-gradient(rgba(248, 72, 8, 0.8), rgba(248, 72, 8, 0.8)),url(mic.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container .twentyt .new_5 .three_6 .ff{
+    background: linear-gradient(rgba(248, 72, 8, 0.8), rgba(248, 72, 8, 0.8)),url(lower.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+#container .twentyt .new_5 .tt .fa-solid{
+    margin-left: 25%;
+    color: white;   
+}
+
+#container .twentyt .new_5 .one_6 ,.two_6, .three_6{
+    background: rgb(241, 241, 241);
+    box-shadow: 5px 5px 5px 0 gray;
+}
+
+#container .twentyt button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+    display: block;
+    margin:auto;
+}
+
+
+
+
+#container .twentyth{
+    height: 630px;
+    background: rgb(79, 1, 79);
+}
+
+#container .twentyth .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: white;
+}
+
+#container .twentyth .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+    color: white;
+}
+
+#container .twentyth .outer{
+    width: 50%;
+    margin: auto;
+}
+
+#container .twentyth .outer .ti_1{
+    display: flex;
+    height: 100px;
+    padding: 15px;
+    background: white;
+}
+
+#container .twentyth .outer .ti_1 .pr_1{
+    height: 80px;
+    width: 80px;
+    background: orangered;
+}
+
+#container .twentyth .outer .ti_1 .pr_1 h3{
+    text-align: center;
+    margin-top: 20%;
+    color: white;
+}
+
+#container .twentyth .outer .ti_1 .pr_1 p{
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    height: 40px;
+}
+
+#container .twentyth .outer .ti_1 .pr_1 p span{
+    font-size: 23px;
+    font-weight: bold;
+}
+
+#container .twentyth .outer .ti_2{
+    margin: 10px 0px;
+}
+
+#container .twentyth .outer ul{
+    list-style: none;
+    margin: 15px 20px;
+}
+
+#container .twentyth .outer ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 20px;
+    display: inline-block;
+    width: 18px;
+
+}
+
+
+#container .twentyth button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(183, 183, 183);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+    display: block;
+    margin:auto;
+}
+
+#container .twentyth .outer .ti_3{
+    margin-bottom: 40px;
+}
+
+
+
+
+#container .twentythh{
+    height: 600px;
+    background: white;
+}
+
+#container .twentythh .new p {
+    font-size: 18px;
+    text-align: center;
+    text-transform: uppercase;
+    padding-top: 45px;
+    padding-bottom: 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: black;
+}
+
+#container .twentythh .new h2 {
+    font-size: 35px;
+    width: 50%;
+    text-align: center;
+    margin: auto;
+    text-transform: capitalize;
+    padding-bottom: 25px;
+    border-bottom: 2px solid gray;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    margin-bottom: 35px;
+    color: black;
+}
+
+#container .twentythh .twentythh_1{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    padding-bottom: 40px;
+}
+
+#container .twentythh .twentythh_1 .ma{
+    width: 33%;
+    height: 150px;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a1{
+    background: url(avantt.webp);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a2{
+    background: url(ny.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a3{
+    background: url(lv.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a4{
+    background: url(mono.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a5{
+    background: url(golden.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh .twentythh_1 .twentythh_a6{
+    background: url(slc.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+#container .twentythh button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+    display: block;
+    margin:auto;
+
+}
+
+#container .twentyf{
+    background: rgba(226, 226, 226, 0.733);
+    height: 500px;
+}
+
+#container .twentyf .twentyf_1{
+    width: 50%;
+    margin: auto;
+    padding: 50px 0px;
+    display: flex;
+}
+
+#container .twentyf .twentyf_2{
+    width: 50%;
+    margin-right: 20px;
+}
+
+#container .twentyf .twentyf_1 h2{
+    text-align: start;
+}
+
+#container .twentyf .twentyf_1 p{
+    font-size: 16px;
+    line-height: 25px;
+}
+
+#container .twentyf .twentyf_2 button{
+    padding: 5px 20px;
+    font-size: 15px;
+    text-transform: capitalize;
+    background: transparent;
+    color: rgb(91, 90, 90);
+    background: transparent;
+    border: 2px solid grey;
+    border-radius: 50px;
+    margin-top: 30px;
+}
+
+#container .twentyf .twentyf_1 ul{
+    margin-bottom: 15px;
+}
+
+#container .twentyf .twentyf_1 ul li{
+    list-style: none;
+    font-size: 16px;
+    padding: 2px 0px;
+}
+
+#container .twentyf .twentyf_1 ul li::before{
+    content: "\2022";
+    color: red;
+    font-weight: bold;
+    font-size: 18px;
+    display: inline-block;
+    width: 22px;
+}
+
+#container .twentyf .twentyf_3 .logo .fa-brands{
+    padding: 10px;
+    background: rgb(200, 200, 200);
+    margin-right: 2px;
+    color: rgb(83, 83, 83);
+
+}
+
+
+
+
+
